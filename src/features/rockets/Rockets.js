@@ -8,12 +8,12 @@ const Rockets = () => {
   const dispatch = useDispatch();
   const rockets = useSelector(state => state.rockets);
 
-//   useEffect(
-//     () => {
-//       if (rockets.length === 0) dispatch(loadRockets());
-//     },
-//     [],
-//   );
+  useEffect(
+    () => {
+      if (rockets.length === 0) dispatch(loadRockets());
+    },
+    [],
+  );
 
   const handleReservation = (id, reserved) => {
     if (reserved) {
