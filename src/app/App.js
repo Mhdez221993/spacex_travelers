@@ -28,7 +28,7 @@ function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
       <div className="app">
-        <NavBar title="Spacx Travelers's Hub" routes={routes} />
+        <NavBar title="Space Travelers' Hub" routes={routes} />
         <Routes>
           { routes.map(
             ({ path, component }) => (
