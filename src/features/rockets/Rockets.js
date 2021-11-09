@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { loadRockets, setReservation, cancelReservation } from '../../redux/rockets';
+import { loadRockets, setReservation, cancelReservation } from './rocketsReducer';
 
-import './rocket.css';
+import './rockets.css';
 
 const Rockets = () => {
   const dispatch = useDispatch();
