@@ -1,5 +1,5 @@
 /* eslint-disable camelcase */
-import getRokects from '';
+import getRokects from './api';
 
 const SET_ROCKETS = 'rocketStore/rockets/SET_ROCKETS';
 const SET_RESERVATION = 'rocketStore/rockets/SET_RESERVATION';
