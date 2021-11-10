@@ -3,10 +3,7 @@
 }
 
 .profile-holder {
-  max-width: 1400px;
   display: flex;
-  flex-wrap: nowrap;
-  margin: 0 auto;
 }
 
 .profile-item {
@@ -22,7 +19,6 @@
   border-left: 1px solid #555;
   border-right: 1px solid #555;
   border-radius: 4px;
-  margin-right: 20px;
 }
 
 .li-profile {
@@ -30,6 +26,6 @@
   padding: 20px;
 }
 
-.ul-profile.last-child {
-  margin: 0;
+.spacer {
+  width: 20px;
 }
