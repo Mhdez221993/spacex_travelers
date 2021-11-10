@@ -13,6 +13,11 @@ The My Profile section displays all reserved rockets and space missions.
 
 ![screeshoot](https://github.com/microverseinc/curriculum-react-redux/blob/main/group-project/images/space-travelers__rockets.png)
 
+
+## Live Demo
+
+[Live Demo Link](https://gallant-blackwell-52d096.netlify.app/)
+
 ## Built With
 - JavaScript
 - React
@@ -80,6 +85,7 @@ npm install --save-dev eslint@7.11.x eslint-config-airbnb@18.1.x eslint-plugin-i
 
 npm install --save-dev stylelint@13.3.x stylelint-scss@3.17.x stylelint-config-standard@20.0.x stylelint-csstree-validator
 ```
+
 
 👤 **Moises Hernandez Coronado**
 
