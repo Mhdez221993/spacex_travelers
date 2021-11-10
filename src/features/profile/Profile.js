@@ -27,7 +27,7 @@ const Profile = () => {
           ))}
         </div>
       </div>
-
+      <div className="spacer" />
       <div className="profile-item">
         <h2 className="profile-title">My Rockets</h2>
         <div className="ul-profile">
