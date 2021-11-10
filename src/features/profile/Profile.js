@@ -16,7 +16,6 @@ const Profile = () => {
   }, []);
 
   const [missions, rockets] = store;
-  // const rockets = missions;
   return (
     <div className="profile-holder">
       <div className="profile-item">
