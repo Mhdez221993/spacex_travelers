@@ -13,17 +13,14 @@ button {
 
 .li-rocket {
   display: flex;
+  margin-bottom: 30px;
 }
 
 .rocket-info {
   display: flex;
   flex-direction: column;
-  padding: 10px;
+  padding: 0 0 10px 20px;
   align-items: flex-start;
-}
-
-.img-rocket {
-  padding: 10px;
 }
 
 .rocket-name {
