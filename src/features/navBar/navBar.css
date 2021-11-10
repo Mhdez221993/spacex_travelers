@@ -27,6 +27,8 @@ h1 {
 .navBar {
   height: 60px;
   width: 100%;
+  border-bottom: 1px solid gray;
+  padding-bottom: 10px;
 }
 
 .nav-list {
