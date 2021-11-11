@@ -1,0 +1,50 @@
+h1 {
+  color: rgb(95, 98, 100);
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.navBar {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  padding: 40px 0;
+  margin-bottom: 50px;
+}
+
+.nav-list {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.brand {
+  margin-right: auto;
+}
+
+.nav-brand {
+  display: flex;
+  align-items: center;
+}
+
+.App-logo {
+  max-width: 60px;
+  max-height: 60px;
+  margin-right: 10px;
+}
+
+.nav-links {
+  margin-left: 30px;
+  line-height: 17px;
+}
+
+.links {
+  color: rgb(0, 123, 255);
+  font-size: 18px;
+}
+
+.nav-links:last-child {
+  border-left: 2px solid rgb(95, 98, 100);
+  margin: 0 0 0 15px;
+  padding-left: 15px;
+}

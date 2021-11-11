@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Missions Component Rockets snapshot test 1`] = `
+<div
+  className="rocket-wrapper"
+>
+  <ul
+    className="ul-rocket"
+  />
+</div>
+`;

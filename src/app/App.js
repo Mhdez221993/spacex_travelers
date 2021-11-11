@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Missions from '../features/missions/Mision';
+import Missions from '../features/missions/Missions';
 import NavBar from '../features/navBar/NavBar';
 import Profile from '../features/profile/Profile';
 import Rockest from '../features/rockets/Rockets';
-import './App.css';
+import './app.css';
 
 const routes = [
   {
@@ -28,7 +28,7 @@ function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
       <div className="app">
-        <NavBar title="Spacx Travelers's Hub" routes={routes} />
+        <NavBar title="Space Travelers' Hub" routes={routes} />
         <Routes>
           { routes.map(
             ({ path, component }) => (

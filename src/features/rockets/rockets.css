@@ -1,0 +1,55 @@
+img {
+  width: 250px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.ul-rocket {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.li-rocket {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.rocket-info {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 10px 20px;
+  align-items: flex-start;
+}
+
+.rocket-name {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.rocket-description {
+  font-size: 16px;
+}
+
+.no-reserved-rocket {
+  background-color: rgb(48, 127, 253);
+  padding: 12px 40px;
+  border: 1px solid rgb(34, 118, 253);
+  border-radius: 4px;
+  color: aliceblue;
+  font-size: 16px;
+}
+
+.reserved-rocket {
+  background-color: rgb(235, 239, 245);
+  padding: 12px 40px;
+  border: 1px solid rgb(232, 238, 247);
+  border-radius: 4px;
+  color: rgb(68, 69, 70);
+  font-size: 16px;
+}
+
+.span {
+  margin-bottom: 10px;
+}

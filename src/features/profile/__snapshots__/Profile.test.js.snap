@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Missions Component Profile snapshot test 1`] = `
+<div
+  className="profile-holder"
+>
+  <div
+    className="profile-item"
+  >
+    <h2
+      className="profile-title"
+    >
+      My Mission
+    </h2>
+    <div
+      className="ul-profile"
+    />
+  </div>
+  <div
+    className="spacer"
+  />
+  <div
+    className="profile-item"
+  >
+    <h2
+      className="profile-title"
+    >
+      My Rockets
+    </h2>
+    <div
+      className="ul-profile"
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavBar snapshot test 1`] = `
+<nav
+  className="navBar"
+>
+  <ul
+    className="nav-list"
+  >
+    <li
+      className="brand"
+    >
+      <a
+        className="nav-brand"
+        href="#/"
+        onClick={[Function]}
+      >
+        <img
+          alt="logo"
+          className="App-logo"
+          src="planet.png"
+        />
+        <h1
+          className="nav-title"
+        >
+          Mock
+        </h1>
+      </a>
+    </li>
+    <li
+      className="nav-links"
+    >
+      <a
+        aria-current="page"
+        className="links active"
+        exact="true"
+        href="#/"
+        onClick={[Function]}
+      >
+        Rockest
+      </a>
+    </li>
+  </ul>
+</nav>
+`;
