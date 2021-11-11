@@ -14,7 +14,6 @@ describe('Missions Component', () => {
   const store = mockStore(initialState);
 
   it('Rockets snapshot test', () => {
-
     const tree = renderer
       .create(
         <Provider store={store}>
@@ -24,11 +23,10 @@ describe('Missions Component', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-})
+});
 
 describe('mission reducer', () => {
-
   it('Shoud return initial state', () => {
     expect(reducer([], [])).toEqual([]);
   });
-})
+});

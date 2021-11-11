@@ -8,7 +8,7 @@ it('NavBar snapshot test', () => {
     {
       name: 'Rockest',
       path: '/',
-    }
+    },
   ];
   const tree = renderer
     .create(

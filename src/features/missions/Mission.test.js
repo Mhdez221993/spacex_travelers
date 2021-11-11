@@ -14,7 +14,6 @@ describe('Missions Component', () => {
   const store = mockStore(initialState);
 
   it('Missions snapshot test', () => {
-
     const tree = renderer
       .create(
         <Provider store={store}>
@@ -24,10 +23,10 @@ describe('Missions Component', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-})
+});
 
 describe('mission reducer', () => {
-  const payload = {id: 123, name: 'Mock Name', description: 'Mock description'}
+  const payload = { id: 123, name: 'Mock Name', description: 'Mock description' };
   const setMission = payload => ({
     type: 'missionsStore/missions/SET_MISSIONS',
     payload,
@@ -40,6 +39,4 @@ describe('mission reducer', () => {
   it('Shoud set the first state state', () => {
     expect(reducer([], setMission(payload))).toEqual([payload]);
   });
-})
-
-
+});

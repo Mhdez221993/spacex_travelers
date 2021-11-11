@@ -13,7 +13,6 @@ describe('Missions Component', () => {
   const store = mockStore(initialState);
 
   it('Profile snapshot test', () => {
-
     const tree = renderer
       .create(
         <Provider store={store}>
@@ -23,4 +22,4 @@ describe('Missions Component', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-})
+});
